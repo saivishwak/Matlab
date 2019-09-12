@@ -2,8 +2,8 @@
 clear all
 clc
 syms x y
-f = @(x,y) 3*y*x^2-10*x+7;
-g = @(x,y) y^2-5*y+4;
+f = @(x,y) 3*y*x^2-10*x+7;   %Function 1
+g = @(x,y) y^2-5*y+4;        %Function 2
 diff_fx = matlabFunction( diff(f,x) );
 diff_fy = matlabFunction( diff(f,y) );
 diff_gx = matlabFunction( diff(g,x) );
