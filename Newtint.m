@@ -2,35 +2,6 @@ function yint = Newtint(x,y,xx)
 
 % Newtint: Newton interpolating polynomial
 
-% yint = Newtint(x,y,xx): Uses an (n - 1)-order Newton
-
-% interpolating polynomial based on n data points (x, y)
-
-% to determine a value of the dependent variable (yint)
-
-% at a given value of the independent variable, xx.
-
-% input:
-
-% x = independent variable
-
-% y = dependent variable
-
-% xx = value of independent variable at which
-
-% interpolation is calculated
-
-% output:
-
-% yint = interpolated value of dependent variable
-
-% compute the finite divided differences in the form of a
-
-% difference table
-%x = [1 3 5 7];
-%y = [24 120 336 720];
-%xx = 2;
-
 n = length(x);
 
 if length(y)~=n, error('x and y must be same length'); 
