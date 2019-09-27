@@ -1,3 +1,4 @@
+%Dot Product Function
 function dot_product = dotpro(v1,v2)
 dot_product = 0;
 for i = 1:length(v1)
