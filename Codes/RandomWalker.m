@@ -1,4 +1,4 @@
-%Molecule Collision Problem
+%MoNteCarlo Random Walker Simulation
 clear
 clc
 close all
@@ -11,7 +11,7 @@ v(1,1)= 2*rand-1;
 v(1,2)= 2*rand-1;
 x(1) = 0;
 y(1) = 0;
-figure('Name','Molecule Collisions','NumberTitle','off','position', [150 50 900 600])
+figure('Name','Random Walker','NumberTitle','off','position', [150 50 900 600])
 
 for i = 2:n
     v(i,1) = 2*rand-1;
