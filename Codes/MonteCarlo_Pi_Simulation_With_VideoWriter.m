@@ -1,4 +1,5 @@
-%Monte Carlo Pi Simulation
+%Monte Carlo Pi Simulation with video writer
+%Define the path initially to write the video in the path folder
 clear all
 clc
 close all
