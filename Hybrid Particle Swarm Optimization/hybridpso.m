@@ -99,8 +99,8 @@ while globalbest.cost >= 0.0000000001
 end
 
 % Results
-[t1,y1] = ode45(@differential,tspan,[globalbest.position(1) globalbest.position(2) globalbest.position(3) globalbest.position(4)...
-    globalbest.position(5) globalbest.position(6)]);
+[t1,y1] = ode45(@differential,tspan,[0 0 globalbest.position(3) globalbest.position(4)...
+    1 globalbest.position(6)]);
 
 %Plot V vs Distance
 figure(1);
@@ -118,4 +118,6 @@ title('Derivative of Transverse Velocity Profile')
 
 
 disp('Optimum Position');
-disp(globalbest.position);
+disp(globalbest.position(3));
+disp(globalbest.position(4));
+disp(globalbest.position(6));
