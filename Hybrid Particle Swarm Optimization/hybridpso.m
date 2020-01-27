@@ -19,7 +19,6 @@ c2 = 2;                    % Social Acceleration Coefficient
 
 tspan = linspace(0,1,100); %Time INterval
 tspan = transpose(tspan);
-y = zeros(100,6);
 
 % Initialization
 empty_particle.position = [];
@@ -42,6 +41,8 @@ for i = 1:npop
     
     % Initialize Velocity of the particles
     particle(i).velocity = zeros(Varsize);
+    
+    [t,y] = ode45(@differential,tspan,[0 0 particle(i).position(3) particle(i).position(4) 1 particle(i).position(6)]);
     
     % Evaluate cost function
     particle(i).cost = sqrt((1-y(end,1)).^2+y(end,2).^2+y(end,5).^2);
