@@ -3,15 +3,14 @@ Numerical computing is an approach for solving complex mathematical models which
 
 The module assumes only basic programming knowledge (in any language) and some background in partial differential equations, ordinary differential equations, fluid mechanics, Algebra, and basic math.
 
-
 ## How to use this module
 This module contains submodules with various examples of numerical computation.
 
-### Codes Module
-Contains numerical integration, numerical derivation, basic coding examples, fractal geometry, lorentz equations .etc
-
 ### 12 - steps to Navier-Stokes
 It contains MATLAB implementation of the CFD course taught by Prof. Lorena Barba between 2009 and 2013 in the Mechanical Engineering department at Boston University.
+
+### Codes 
+Contains numerical integration, numerical derivation, basic coding examples, fractal geometry, lorentz equations .etc
 
 ### Hybrid Particle Swarm Optimization
 It contains particle swarm optimization to solve missing value bounday problems for ordinary differential equations.
