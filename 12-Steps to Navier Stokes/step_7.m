@@ -45,7 +45,7 @@ for t = 1:nt
                 +vis*(dt/dy^2)*(un(i,j+1)-2*un(i,j)+un(i,j-1));
         end
     end
-    pause(0.1)
+    pause(0.05)
     surf(X,Y,u(:,:))
     axis([0 2 0 2 1 2.5])
 end

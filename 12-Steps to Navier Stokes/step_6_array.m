@@ -39,17 +39,14 @@ for i = 1:nx
     end
 end
 
-
 % Main Loop
-for t = 1:nt
+for it = 1:nt
     un = u;
     vn = v;
-    for i = 2:nx
-        for j = 2:ny
-            u(i,j) = un(i,j)-un(i,j)*(dt/dx)*(un(i,j)-un(i-1,j))-vn(i,j)*(dt/dy)*(un(i,j)-un(i,j-1));
-            v(i,j) = vn(i,j)-un(i,j)*(dt/dx)*(vn(i,j)-vn(i-1,j))-vn(i,j)*(dt/dy)*(vn(i,j)-vn(i,j-1));
-        end
-    end
+    u(2:nx,2:ny) = un(2:nx,2:ny) - un(2:nx,2:ny).*(dt/dx).*(un(2:nx,2:ny)-un(1:nx-1,2:ny))...
+    -vn(2:nx,2:ny).*(dt/dy).*(un(2:nx,2:ny)-un(2:nx,1:ny-1));
+    v(2:nx,2:ny) = vn(2:nx,2:ny) - un(2:nx,2:ny)*(dt/dx).*(vn(2:nx,2:ny)-vn(1:nx-1,2:ny))...
+    -vn(2:nx,2:ny).*(dt/dy).*(vn(2:nx,2:ny)-vn(2:nx,1:ny-1));
     pause(0.1)
     surf(X,Y,v(:,:))
 end
