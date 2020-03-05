@@ -9,20 +9,20 @@ This module contains submodules with various examples of numerical computation.
 ### 12 - steps to Navier-Stokes
 It contains MATLAB implementation of the CFD course taught by Prof. Lorena Barba between 2009 and 2013 in the Mechanical Engineering department at Boston University.
 
-![Pic 1](https://github.com/saivishwak/Matlab/tree/master/Images/cfd_step_6.png)
+![Pic 1](https://github.com/saivishwak/Matlab/tree/master/Images/master/cfd_step_6.png)
 
-![Pic 2](https://github.com/saivishwak/Matlab/tree/master/Images/cfd_step_9.png)
+![Pic 2](https://github.com/saivishwak/Matlab/tree/master/Images/master/cfd_step_9.png)
 
 ### Codes 
 Contains numerical integration, numerical derivation, basic coding examples, fractal geometry, lorentz equations .etc
 
-![Pic 3](https://github.com/saivishwak/Matlab/tree/master/Images/lorenz_system.png)
+![Pic 3](https://github.com/saivishwak/Matlab/tree/master/Images/master/lorenz_system.png)
 
-![Pic 4](https://github.com/saivishwak/Matlab/tree/master/Images/lfractal.png)
+![Pic 4](https://github.com/saivishwak/Matlab/tree/master/Images/master/lfractal.png)
 
-![Pic 5](https://github.com/saivishwak/Matlab/tree/master/Images/random_walker.png)
+![Pic 5](https://github.com/saivishwak/Matlab/tree/master/Images/master/random_walker.png)
 
-![Pic 6](https://github.com/saivishwak/Matlab/tree/master/Images/Double_pendulum.png)
+![Pic 6](https://github.com/saivishwak/Matlab/tree/master/Images/master/Double_pendulum.png)
 
 ### Hybrid Particle Swarm Optimization
 It contains particle swarm optimization to solve missing value bounday problems for ordinary differential equations.
