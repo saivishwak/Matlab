@@ -9,6 +9,8 @@ This module contains submodules with various examples of numerical computation.
 ### 12 - steps to Navier-Stokes
 It contains MATLAB implementation of the CFD course taught by Prof. Lorena Barba between 2009 and 2013 in the Mechanical Engineering department at Boston University.
 
+![Pic 1](https://github.com/nicolasfguillaume/Computational-Fluid-Dynamics-CFD-in-Python/blob/master/output_9_0.png)  
+
 ### Codes 
 Contains numerical integration, numerical derivation, basic coding examples, fractal geometry, lorentz equations .etc
 
@@ -17,6 +19,9 @@ It contains particle swarm optimization to solve missing value bounday problems 
 
 ### Project Euler
 Contains codes for the problems from https://projecteuler.net.
+
+## Dependencies
+To use these lessons, you need MATLAB installed in your machine.
 
 ## Thank You
 
