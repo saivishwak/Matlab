@@ -32,7 +32,7 @@ It contains particle swarm optimization to solve missing value bounday problems 
 Contains codes for the problems from https://projecteuler.net.
 
 ## Dependencies
-To use these lessons, you need MATLAB installed in your machine.
+To use these codes, you need MATLAB installed in your machine.
 
 ## Thank You
 
